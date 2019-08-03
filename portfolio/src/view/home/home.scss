@@ -1,3 +1,72 @@
 .home-main {
-    background-color: white;
+    background-color: $home-bg-color;
+
+    .home-wrap {
+        display: flex;
+
+
+
+        .left {
+            // background: #FFF8E3;
+            height: 93vh;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+
+            .img-wrap {
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                img {
+                    align-self: center;
+                    width: 70%;
+                    height: 85%;
+                    border-radius: 50%;
+                }
+            }
+
+            .bottom-left {
+                height: 60%;
+
+                // .sub-nav {
+                //     padding: 3%;
+
+                //     .list {
+                //         display: flex;
+                //         flex-direction: column;
+                //         justify-content: space-evenly;
+                        
+
+                //         .item {
+                //             align-self: center;
+                //             margin: 5%;
+
+                //             .link {
+                //                 color: $nav-font-color;
+                //                 text-decoration: none;
+                //                 font-size: 3rem;
+
+                //                 &:hover {
+                //                     color: $cerulean;
+                //                 }
+                //             } // end of link
+
+                //         } // end of item
+
+                //     } // end of list 
+
+                // } // end of sub-nav
+
+            } // end of bottom-left
+
+        } // end of left
+
+        .right {
+            // background: blue;
+            height: 93vh;
+            width: 75%;
+        } // end of right
+    }
 }
