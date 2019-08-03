@@ -2,8 +2,15 @@ import React from 'react';
 
 const Fe = () => {
     return (
-        <div>
-            <h1>Front-End Technologies</h1>
+        <div className="fe-main">
+            <div className="fe-wrap">
+                <div className="title-wrap">
+                    <h1>Front-End</h1>
+                </div>
+                <div>
+            
+                </div>
+            </div>
         </div>
     )
 }
