@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.scss';
 import Particles from 'react-particles-js';
 
 import { particles } from './particles/particles';
 
 function App() {
   return (
-    <div>
+    <div className="App">
 
       <Particles 
           params={ particles }
