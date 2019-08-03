@@ -2,8 +2,13 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects go here!</h1>
+        <div className="projects-main">
+            <div className="title-wrap">
+                <h1 className="title">Projects</h1>
+            </div>
+            <div>
+                
+            </div>
         </div>
     )
 }

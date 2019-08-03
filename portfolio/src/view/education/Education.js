@@ -2,8 +2,13 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div>
-            <h1>This is education</h1>
+        <div className="education-main">
+            <div className="title-wrap">
+                <h1 className="title">Education</h1>
+            </div>
+            <div>
+                
+            </div>
         </div>
     )
 }
