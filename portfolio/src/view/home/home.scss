@@ -14,50 +14,43 @@
             flex-direction: column;
 
             .img-wrap {
-                height: 40%;
+                height: 45%;
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-content: center;
 
-                img {
+                .img {
+                    margin: 5%;
+                    // margin-top: 2%;
                     align-self: center;
-                    width: 70%;
-                    height: 85%;
+                    width: 65%;
+                    height: 75%;
                     border-radius: 50%;
+                    @include box-shadow;
+                }
+
+                .social-icons {
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    img {
+                        width: 25;
+                        height: 30px;
+                    }
                 }
             }
 
             .bottom-left {
-                height: 60%;
+                height: 49%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
 
-                // .sub-nav {
-                //     padding: 3%;
-
-                //     .list {
-                //         display: flex;
-                //         flex-direction: column;
-                //         justify-content: space-evenly;
-                        
-
-                //         .item {
-                //             align-self: center;
-                //             margin: 5%;
-
-                //             .link {
-                //                 color: $nav-font-color;
-                //                 text-decoration: none;
-                //                 font-size: 3rem;
-
-                //                 &:hover {
-                //                     color: $cerulean;
-                //                 }
-                //             } // end of link
-
-                //         } // end of item
-
-                //     } // end of list 
-
-                // } // end of sub-nav
+                .attribution {
+                    padding: 1%;
+                }
 
             } // end of bottom-left
 
