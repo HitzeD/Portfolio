@@ -2,6 +2,9 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import SkillNav from '../navbar/SkillNav';
+import SkillIntro from '../skillRoutes/intro/SkillIntro';
+import FrontEnd from '../skillRoutes/fe/Fe';
+import BackEnd from '../skillRoutes/backend/Be';
 
 const Skills = () => {
     return (
@@ -12,8 +15,10 @@ const Skills = () => {
             <div>
                 <SkillNav />
             </div>
-            <div>
-            
+            <div className="routes">
+                <Route exact path='/home/skills' component={SkillIntro} />
+                <Route path='/home/skills/fe' component={FrontEnd} />
+                <Route path='./home/skills/be' component={BackEnd} />
             </div>
         </div>
     )
