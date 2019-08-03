@@ -1,0 +1,79 @@
+.particle-main {
+
+    .title-contain {
+        text-align: center;
+        width: 800px;
+        height: 600px;
+        position: absolute;
+        top: 20%;
+        right: 30%;
+        // z-index: 10;
+
+        @include small-desktop {
+            right: 22%;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+
+
+            h1 {
+                font-size: 12rem;
+                font-family: $large-font;
+                color: #09A8E6;
+                font-weight: 900;
+
+                @include small-desktop {
+                    font-size: 11rem;
+                }
+            }
+
+            h3 {
+                font-size: 5rem;
+                font-family: $body-font;
+                color: #6BB231;
+                margin-left: 2.1%;
+
+                @include small-desktop {
+                    font-size: 4.4rem;
+                    margin-left: 4%;
+                }
+            }
+
+        } // end of title
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            // height: 20%;
+
+            .link-btn {
+                width: 100%;
+
+                button {
+                    width: 40%;
+                    // padding: 5%;
+                    font-size: 5rem;
+                    font-family: $body-font;
+                    color: #FFF8E3;
+                    background: rgba(44.3, 4.3, 5.5, 0.2);
+                    border-radius: 20%;
+                    margin-top: 10%;
+    
+                    &:hover {
+                        color: #FFD166;
+                    }
+
+                } // end of button
+
+            } // end of link-btn
+
+        } // end of btn
+
+    } // end of title-contain
+
+} // end of particle-main
