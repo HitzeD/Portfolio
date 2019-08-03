@@ -30,15 +30,15 @@ class Home extends React.Component {
                         <div className="img-wrap">
                             <img className="img" src={me} alt="Me" />
                             <div className="social-icons">
-                                <Link className="link" to="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
+                                <address className="link" href="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
                                     <img src={github} alt="octocat" />
-                                </Link>
-                                <Link className="link" to="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
+                                </address>
+                                <a className="link" href="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
                                     <img src={linkedIn} alt="LinkedIn" />
-                                </Link>
-                                <Link className="link" to="https://twitter.com/DakotahHitze" target="_blank">
+                                </a>
+                                <a className="link" href="https://twitter.com/DakotahHitze" target="_blank">
                                     <img src={twitter} alt="Twitter" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="bottom-left">
