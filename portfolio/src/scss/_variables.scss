@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
+// Colors
+
+$sushi: #6BB231;
+$prussianBlue: #002244;
+$goldenTainoi: #FFD166;
+$mineShaft: #363636;
+$ginFizz: #FFF8E3;
+$endeavour: #004F99;
+$lightCerulean: #01BAEF;
+$amaranth: #F03A47;
+$codGray: #1A1818;
+$cornflowerBlue : #57A1E6;
+$cerulean: #09A8E6;
+$midnight: #012345;
+$downRiver: #0B2343;
+
+
+
+// Fonts
+
+$roboto: 'Roboto', sans-serif;
+$openSans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+
+// Assign values below!
+
+    // below values are for colors
+
+$nav-font-color: $midnight;
+
+
+    // below values are for fonts
+
+$large-font: $roboto;
+// ^ font-weight black={900}, bold={700} -HitzeD
+$body-font: $openSans;

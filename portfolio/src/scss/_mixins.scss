@@ -1,0 +1,32 @@
+@mixin test {
+    border: 1px solid white;
+}
+
+@mixin main-margin {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+@mixin box-shadow {
+    -webkit-box-shadow: 2px 10px 15px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 10px 15px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 10px 15px -8px rgba(0,0,0,0.75);
+}
+
+// Media Queries
+
+@mixin mobile {
+    @media (max-width: 400px) { @content; }
+}
+
+@mixin tablet-landscape {
+    @media (max-width: 900px) { @content; }
+}
+
+@mixin tablet-portrait {
+    @media (max-width: 600px) { @content; }
+}
+
+@mixin small-desktop {
+    @media (max-width: 1450px) { @content; }
+}
