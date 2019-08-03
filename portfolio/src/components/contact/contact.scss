@@ -1,0 +1,109 @@
+.contact-main {
+    margin: 0 auto;
+
+    .title-wrap {
+        margin-top: 2%;
+        text-align: center;
+
+        .title {
+            font-size: 5rem;
+            font-family: $subnav-font;
+            font-weight: 700;
+            color: $endeavour;
+        } // end of title
+
+    } // end of title-wrap
+
+    .form-wrap {
+        height: 81.6vh;
+
+        .form-contain {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .form {
+                width: 100%;
+
+                .flexing {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .words {
+                        font-size: 1.5rem;
+                    }
+
+                    .inside {
+                        align-self: flex-start;
+                        margin-left: 5%;
+                    }
+
+                    .outside {
+                        align-self: flex-end;
+                        margin-right: 5%;
+                    }
+                }
+
+
+
+                .name-div {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+
+                    .name {
+                        width: 30%;
+                        height: 50px;
+                        margin: 1%;
+                    }
+                }
+
+                .contact-div {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    
+                    .contact {
+                        width: 30%;
+                        height: 50px;
+                        margin: 1%;
+                    }
+                }
+
+                .company-div {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+
+                    .company {
+                        width: 25%;
+                        height: 50px;
+                        margin: 1%;
+                    }
+                }
+
+                .text-div {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center; 
+
+                    .text {
+                        width: 30%;
+                        height: 100px;
+                        margin: 1%;
+                    }
+                }
+
+                .btn-div {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                }
+            }
+        }
+    }
+} // end of contact-main
