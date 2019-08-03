@@ -12,9 +12,6 @@ const NavBar = () => {
                     <li className="item">
                         <Link className="link" to="/">Front</Link>
                     </li>
-                    <li className="item">
-                        <Link className="link" to="#">Contact</Link>
-                    </li>
                 </ul>
             </div>
         </div>
