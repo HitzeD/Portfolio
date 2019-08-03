@@ -30,9 +30,9 @@ class Home extends React.Component {
                         <div className="img-wrap">
                             <img className="img" src={me} alt="Me" />
                             <div className="social-icons">
-                                <address className="link" href="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
+                                <a className="link" href="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
                                     <img src={github} alt="octocat" />
-                                </address>
+                                </a>
                                 <a className="link" href="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
                                     <img src={linkedIn} alt="LinkedIn" />
                                 </a>
