@@ -1,4 +1,4 @@
-export const particles = {
+const particles = {
   "particles": {
     "number": {
       "value": 76,
@@ -95,3 +95,5 @@ export const particles = {
   },
   "retina_detect": true
 }
+
+export default particles;
