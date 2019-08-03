@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 // Components
 import NavBar from '../navbar/NavBar';
@@ -30,15 +30,15 @@ class Home extends React.Component {
                         <div className="img-wrap">
                             <img className="img" src={me} alt="Me" />
                             <div className="social-icons">
-                                <a href="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
+                                <Link className="link" to="https://github.com/HitzeD/" target="_blank" rel="noopener noreferrer">
                                     <img src={github} alt="octocat" />
-                                </a>
-                                <a href="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
+                                </Link>
+                                <Link className="link" to="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
                                     <img src={linkedIn} alt="LinkedIn" />
-                                </a>
-                                <a href="https://twitter.com/DakotahHitze" target="_blank" rel="noopener noreferrer">
+                                </Link>
+                                <Link className="link" to="https://twitter.com/DakotahHitze" target="_blank">
                                     <img src={twitter} alt="Twitter" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="bottom-left">

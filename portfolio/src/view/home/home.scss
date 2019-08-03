@@ -19,6 +19,10 @@
                 flex-direction: column;
                 justify-content: center;
                 align-content: center;
+                
+                @include small-desktop {
+                    margin: 1%;
+                }
 
                 .img {
                     margin: 5%;
@@ -28,16 +32,37 @@
                     height: 75%;
                     border-radius: 50%;
                     @include box-shadow;
+
+                    @include small-desktop {
+                        margin: 1%;
+                        height: 70%;
+                        width: 60%;
+                    }
                 }
 
                 .social-icons {
                     display: flex;
                     justify-content: space-evenly;
 
-                    img {
-                        width: 25;
-                        height: 30px;
+                    .link {
+                        width: 25px;
+                        height: 40px;
+
+                        img {
+                            width: 25px;
+                            height: 30px;
+    
+                            
+                        }
                     }
+
+                    @include small-desktop {
+                        margin: 2%;
+                    }
+                }
+
+                @include small-desktop {
+                    height: 40%;
                 }
             }
 
@@ -50,6 +75,11 @@
 
                 .attribution {
                     padding: 1%;
+                }
+
+                @include small-desktop {
+                    height: 50%;
+                    margin-top: 2%;
                 }
 
             } // end of bottom-left
