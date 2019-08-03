@@ -1,18 +1,22 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import { Route } from 'react-router-dom';
 
-import { particles } from './particles/particles';
+import Home from './view/home/Home';
+import ParticleView from './view/particle/ParticleView';
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  state = {
 
-      <Particles 
-          params={ particles }
-      />
+  }
 
-    </div>
-  );
+  render(){
+    return (
+      <div className="App">
+        <Route exact path={'/'} component={ParticleView} />
+        <Route path={'/home'} component={Home} />
+      </div>
+    );
+  }
 }
 
 export default App;
