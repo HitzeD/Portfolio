@@ -8,7 +8,7 @@ import Welcome from '../welcome/Welcome';
 import Skills from '../skills/Skills';
 import Projects from '../projects/Projects';
 import Education from '../education/Education';
-import Contributions from '../contributions/Contributions';
+import Contact from '../../components/contact/Contact';
 
 // Images
 import me from '../../img/pro-pic.jpg';
@@ -51,7 +51,7 @@ class Home extends React.Component {
                         <Route path='/home/skills' component={Skills} />
                         <Route path='/home/projects' component={Projects} />
                         <Route path='/home/education' component={Education} />
-                        <Route path='/home/contributions' component={Contributions} />
+                        <Route path='/home/contact' component={Contact} />
                     </div>
                 </div>
 
