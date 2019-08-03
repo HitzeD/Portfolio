@@ -1,0 +1,18 @@
+.fe-main {
+   
+    .fe-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        .title-wrap {
+
+            h1 {
+                font-size: 3rem;
+                font-family: $large-font;
+                font-weight: 700;
+            }
+        }
+    }
+}
