@@ -1,0 +1,38 @@
+.nav-main {
+    color: $nav-font-color;
+    display: flex;
+    justify-content: space-between;
+    padding: .5%;
+    @include main-margin;
+
+    .name {
+        width: 50%;
+        text-decoration: none;
+        font-size: 3.3rem;
+        font-family: $large-font;
+        font-weight: 900;
+
+    }
+
+    .nav {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+
+        .list {
+            width: 80%;
+            text-decoration: none;
+            display: flex;
+            
+            justify-content: space-around;
+
+            .item {
+                font-size: 3rem;
+                font-family: $large-font;
+                font-weight: 900;
+                
+                text-decoration: none;
+            }
+        }
+    }
+}
