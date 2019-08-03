@@ -1,0 +1,28 @@
+.sub-nav {
+    padding: 3%;
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+
+        .item {
+            align-self: center;
+            margin: 5%;
+
+            .link {
+                color: $nav-font-color;
+                text-decoration: none;
+                font-size: 3rem;
+
+                &:hover {
+                    color: $cerulean;
+                }
+            } // end of link
+
+        } // end of item
+
+    } // end of list 
+
+} // end of sub-nav
