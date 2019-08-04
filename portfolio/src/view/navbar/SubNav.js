@@ -18,9 +18,9 @@ const SubNav = () => {
                 <li className="item">
                     <Link className="link" to='/home/education'>Education</Link>
                 </li>
-                <li className="item">
+                {/* <li className="item">
                     <Link className="link" to='/home/contact'>Contact</Link>
-                </li>
+                </li> */}
             </ul>
         </div>
     )
