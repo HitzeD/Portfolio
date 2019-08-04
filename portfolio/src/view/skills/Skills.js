@@ -13,7 +13,7 @@ const Skills = () => {
                 <h1 className="title">Skills</h1>
             </div>
             <div>
-                <SkillNav />
+                <SkillNav type="skill" />
             </div>
             <div className="routes">
                 <Route exact path='/home/skills' component={SkillIntro} />
