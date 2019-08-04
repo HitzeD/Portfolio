@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import SkillNav from '../navbar/SkillNav';
 import SkillIntro from '../skillRoutes/intro/SkillIntro';
 import FrontEnd from '../skillRoutes/fe/Fe';
-import BackEnd from '../skillRoutes/backend/Be';
+import BackEnd from '../skillRoutes/backend/BackEnd';
 
 const Skills = () => {
     return (
@@ -18,7 +18,7 @@ const Skills = () => {
             <div className="routes">
                 <Route exact path='/home/skills' component={SkillIntro} />
                 <Route path='/home/skills/fe' component={FrontEnd} />
-                <Route path='./home/skills/be' component={BackEnd} />
+                <Route path='/home/skills/be' component={BackEnd} />
             </div>
         </div>
     )
