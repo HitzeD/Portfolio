@@ -1,4 +1,9 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+
+import ProNav from '../navbar/ProNav';
+import ProjectList from './ProjectList';
+import Contributions from '../contributions/Contributions';
 
 const Projects = () => {
     return (
@@ -7,7 +12,11 @@ const Projects = () => {
                 <h1 className="title">Projects</h1>
             </div>
             <div>
-                
+                <ProNav />
+            </div>
+            <div>
+                <Route exact path="/home/projects" component={ProjectList} />
+                <Route path="/home/projects/contributions" component={Contributions} />
             </div>
         </div>
     )
