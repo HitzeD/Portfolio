@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contributions = () => {
     return (
-        <div className="contributions-main">
+        <div className="con-main">
             <div className="title-wrap">
-                <h1 className="title">Contributions</h1>
+                <h1>Contributions</h1>
             </div>
             <div>
                 
