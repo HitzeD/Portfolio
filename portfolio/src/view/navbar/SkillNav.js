@@ -6,7 +6,7 @@ const SkillNav = () => {
         <div className="tabs">
 
             <Link className="link" to='/home/skills'>
-                <h1>Skills Home</h1>
+                <h1>General</h1>
             </Link>
 
             <Link className="link" to='/home/skills/fe'>
