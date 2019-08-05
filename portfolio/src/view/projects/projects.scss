@@ -1,5 +1,7 @@
 .projects-main {
     margin: 0 auto;
+    height: 90vh;
+    overflow: scroll;
 
     .title-wrap {
         margin-top: 2%;
@@ -13,5 +15,8 @@
         } // end of title
 
     } // end of title-wrap
+
+    .routes {
+    }
 
 } // end of projects-main

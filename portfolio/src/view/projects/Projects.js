@@ -14,7 +14,7 @@ const Projects = () => {
             <div>
                 <ProNav />
             </div>
-            <div>
+            <div className="routes">
                 <Route exact path="/home/projects" component={ProjectList} />
                 <Route path="/home/projects/contributions" component={Contributions} />
             </div>
