@@ -5,7 +5,7 @@ const SkillIntro = () => {
         <div className="skillIntro-wrap">
             <div className="title-card">
                 <div className="title-wrap">
-                    <h1>Skills Home</h1>
+                    <h1>General</h1>
                 </div>
             </div>
             <div className="skills-wrap">
