@@ -48,21 +48,21 @@ class Contact extends React.Component {
                 </div>
                 <div className="form-wrap">
                     <div className="form-contain">
-                        <form className="form" name="contactForm" data-netlify="true">
+                        <form className="form" name="contactForm" method="POST" netlify>
                             <div className="name-div">
                                 <div className="flexing">
                                     <h3 className="words outside">FirstName</h3>
-                                    <input className="name outside" onChange={this.changeHandler} name="fname" type="text" placeholder="Please Enter Your First Name!" value={this.state.contact.fname} />
+                                    <input className="name outside" onChange={this.changeHandler} name="fname" type="text" placeholder="Please Enter Your First Name!" value={this.state.contact.fname} required />
                                 </div>
                                 <div className="flexing">
                                     <h3 className="words inside">Last Name</h3>
-                                    <input className="name inside" onChange={this.changeHandler} name="lname" type="text" placeholder="Please Enter Your Last Name!" value={this.state.contact.lname} />
+                                    <input className="name inside" onChange={this.changeHandler} name="lname" type="text" placeholder="Please Enter Your Last Name!" value={this.state.contact.lname} required />
                                 </div>
                             </div>
                             <div className="contact-div">
                                 <div className="flexing">
                                     <h3 className="words outside">E-Mail</h3>
-                                    <input className="contact outside" onChange={this.changeHandler} name="email" type="email" placeholder="Please Enter Your First Name!" value={this.state.contact.email} />
+                                    <input className="contact outside" onChange={this.changeHandler} name="email" type="email" placeholder="Please Enter Your First Name!" value={this.state.contact.email} required />
                                 </div>
                                 <div className="flexing">
                                     <h3 className="words inside">Phone Number</h3>
@@ -78,11 +78,11 @@ class Contact extends React.Component {
                             <div className="text-div">
                                 <div className="flexing">
                                     <h3 className="words">Comments or Questions?</h3>
-                                    <input className="text" onChange={this.changeHandler} name="text" type="text" placeholder="Comments here..." value={this.state.contact.text} />
+                                    <input className="text" onChange={this.changeHandler} name="text" type="text" placeholder="Comments here..." value={this.state.contact.text} required />
                                 </div>
                             </div>
                             <div className="btn-div">
-                                <button type="submit">Submit</button>
+                                <button type="submit" value="Submit">Submit</button>
                                 <button onClick={this.reset}>Clear</button>
                             </div>
                         </form>
