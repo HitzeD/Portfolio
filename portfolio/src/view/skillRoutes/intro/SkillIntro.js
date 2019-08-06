@@ -30,6 +30,7 @@ const SkillIntro = () => {
                         <hr/>
                         <ul className="practice-list">
                             <li className="practice-item">Object-Oriented Programming</li>
+                            <li className="practice-item">Strongly-Typed Language</li>
                             <li className="practice-item">Agile</li>
                             <li className="practice-item">Scrum</li>
                         </ul>
