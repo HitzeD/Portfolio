@@ -14,4 +14,26 @@
 
     } // end of title-wrap
 
+    .welcome-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 80vh;
+
+        .white-div {
+            background-color: white;
+            width: 70%;
+            padding: 3%;
+            @include box-shadow;
+
+            p {
+                width: 100%;
+                font-size: 1.5rem;
+                font-family: $body-font;
+                line-height: 1.9rem;
+            }
+        }
+    }
 } // end of welcome-main
