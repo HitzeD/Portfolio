@@ -48,7 +48,14 @@ class Contact extends React.Component {
                 </div>
                 <div className="form-wrap">
                     <div className="form-contain">
-                        <form className="form" name="Contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                        <form 
+                        className="form" 
+                        name="Contact" 
+                        method="post" 
+                        netlify 
+                        data-netlify="true" 
+                        data-netlify-honeypot="bot-field"
+                        >
                             <div className="name-div">
                                 <div className="flexing">
                                     <h3 className="words outside">FirstName</h3>
