@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+const encode = data => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
 class Contact extends React.Component {
     constructor() {
         super();
@@ -40,6 +47,18 @@ class Contact extends React.Component {
         })
     }
 
+    handleSubmit = e => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x.www.form.urlencoded" },
+            body: encode({ "form-name": "Contact", ...this.state.contact })
+        })
+        .then(res => console.log(res))
+        .catch(err => alert(err));
+
+        e.preventDefault();
+    }
+
     render(){
         return(
             <div className="contact-main">
@@ -48,14 +67,7 @@ class Contact extends React.Component {
                 </div>
                 <div className="form-wrap">
                     <div className="form-contain">
-                        <form 
-                        className="form" 
-                        name="Contact" 
-                        method="post" 
-                        netlify 
-                        data-netlify="true" 
-                        data-netlify-honeypot="bot-field"
-                        >
+                        <form className="form" onSubmit={this.handleSubmit}>
                             <div className="name-div">
                                 <div className="flexing">
                                     <h3 className="words outside">FirstName</h3>
