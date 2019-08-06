@@ -39,11 +39,13 @@
 
         .general {
             width: 49.5%;
+            height: 99%;
             background-color: white;
             text-align: center;
             margin: 2%;
             @include box-shadow;
             padding: 2%;
+            overflow: scroll;
 
             .gen-wrap {
                 width: 100%;
@@ -68,11 +70,13 @@
 
         .practices {
             width: 49.5%;
+            height: 99%;
             text-align: center;
             background-color: white;
             margin: 2%;
             @include box-shadow;
             padding: 2%;
+            overflow: scroll;
 
             .practice-wrap {
 

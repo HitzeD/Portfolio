@@ -21,6 +21,8 @@ const SkillIntro = () => {
                             <li className="gen-item">Netlify</li>
                             <li className="gen-item">Heroku</li>
                             <li className="gen-item">RESTful API</li>
+                            <li className="gen-item">NPM</li>
+                            <li className="gen-item">Yarn</li>
                         </ul>
                     </div>            
                 </div>
