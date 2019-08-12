@@ -42,6 +42,7 @@
                 padding: 3%;
                 width: 40%;
                 text-align: center;
+                @include box-shadow;
 
                 .be-item {
                     font-size: 2rem;

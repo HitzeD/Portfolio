@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import Home from './view/home/Home';
-import ParticleView from './view/particle/ParticleView';
+// import ParticleView from './view/particle/ParticleView';
 
 class App extends React.Component {
   state = {
@@ -12,8 +12,8 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <Route exact path='/' component={ParticleView} />
-        <Route path='/home' component={Home} />
+        {/* <Route exact path='/' component={ParticleView} /> */}
+        <Route path='/' component={Home} />
       </div>
     );
   }

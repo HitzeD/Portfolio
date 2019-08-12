@@ -36,7 +36,7 @@ class Home extends React.Component {
                                 <a className="link" href="https://www.linkedin.com/in/dakotah-hitze-2a9042100/" target="_blank" rel="noopener noreferrer">
                                     <img src={linkedIn} alt="LinkedIn" />
                                 </a>
-                                <a className="link" href="https://twitter.com/DakotahHitze" target="_blank">
+                                <a className="link" href="https://twitter.com/DakotahHitze" target="_blank" rel="noopener noreferrer">
                                     <img src={twitter} alt="Twitter" />
                                 </a>
                             </div>
@@ -47,11 +47,11 @@ class Home extends React.Component {
                         </div>
                     </div>
                     <div className="right">
-                        <Route exact path='/home' component={Welcome} />
-                        <Route path='/home/skills' component={Skills} />
-                        <Route path='/home/projects' component={Projects} />
-                        <Route path='/home/education' component={Education} />
-                        <Route path='/home/contact' component={Contact} />
+                        <Route exact path='/' component={Welcome} />
+                        <Route path='/skills' component={Skills} />
+                        <Route path='/projects' component={Projects} />
+                        <Route path='/education' component={Education} />
+                        <Route path='/contact' component={Contact} />
                     </div>
                 </div>
 

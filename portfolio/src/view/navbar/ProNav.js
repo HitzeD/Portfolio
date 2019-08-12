@@ -5,11 +5,11 @@ const SkillNav = () => {
     return (
         <div className="tabs">
 
-            <Link className="link" to='/home/projects'>
+            <Link className="link" to='/projects'>
                 <h1>Projects</h1>
             </Link>
 
-            <Link className="link" to='/home/projects/contributions'>
+            <Link className="link" to='/projects/contributions'>
                 <h1>Contributions</h1>
             </Link>
 

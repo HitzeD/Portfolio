@@ -7,19 +7,19 @@ const SubNav = () => {
         <div className="sub-nav">
             <ul className="list">
                 <li className="item">
-                    <Link className="link" to='/home'>Welcome!</Link>
+                    <Link className="link" to='/'>Welcome!</Link>
                 </li>
                 <li className="item">
-                    <Link className="link" to='/home/skills'>Skills</Link>
+                    <Link className="link" to='/skills'>Skills</Link>
                 </li>
                 <li className="item">
-                    <Link className="link" to='/home/projects'>Projects</Link>
+                    <Link className="link" to='/projects'>Projects</Link>
                 </li>
                 <li className="item">
-                    <Link className="link" to='/home/education'>Education</Link>
+                    <Link className="link" to='/education'>Education</Link>
                 </li>
                 {/* <li className="item">
-                    <Link className="link" to='/home/contact'>Contact</Link>
+                    <Link className="link" to='/contact'>Contact</Link>
                 </li> */}
             </ul>
         </div>
