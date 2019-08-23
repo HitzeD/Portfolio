@@ -23,6 +23,8 @@ const SkillIntro = () => {
                             <li className="gen-item">RESTful API</li>
                             <li className="gen-item">NPM</li>
                             <li className="gen-item">Yarn</li>
+                            <li className="gen-item">Stripe API</li>
+                            <li className="gen-item">SendGrid Library</li>
                         </ul>
                     </div>            
                 </div>
