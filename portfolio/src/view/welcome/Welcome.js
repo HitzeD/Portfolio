@@ -20,7 +20,7 @@ const Welcome = () => {
                         class. Once the school assigns a student to a teacher, school supplies will automatically 
                         be ordered and sent to the school for the first day.<br/><br/>
 
-                        You can also check out some of my other projects in the <Link to="/home/projects">Projects</Link> tab!<br/><br/>
+                        You can also check out some of my other projects in the <Link to="/projects">Projects</Link> tab!<br/><br/>
 
                         On the side are the icons for my Github, LinkedIn, and Twitter! I also have a link to my resume <a href="https://resume.creddle.io/resume/a0vgttac3y7">Here</a>.
                     </p>
