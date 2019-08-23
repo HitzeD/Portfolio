@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div className="nav-main">
             <div className="name">
-                <h1>dakotah hitze</h1>
+                <h1 className="text-blur-out">dakotah hitze</h1>
             </div>
         </div>
     )

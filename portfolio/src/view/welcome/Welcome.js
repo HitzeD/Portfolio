@@ -8,7 +8,7 @@ const Welcome = () => {
                 <h1 className="title">Welcome!</h1>
             </div>
             <div className="welcome-wrap">
-                <div className="white-div">
+                <div className="white-div puff-in-center">
                     <p>
                         Hello, My name is Dakotah Hitze, and I live in the Lafayette, Indiana area.
                         I have an amazing family of 4 that I am taking care of when I am not nose-deep in 
