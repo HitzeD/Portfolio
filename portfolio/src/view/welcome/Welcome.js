@@ -11,7 +11,7 @@ const Welcome = () => {
                 <div className="white-div">
                     <p>
                         Hello, My name is Dakotah Hitze, and I live in the Lafayette, Indiana area.
-                        I have an amazing family of 4 that I am taing care of when I am not nose-deep in 
+                        I have an amazing family of 4 that I am taking care of when I am not nose-deep in 
                         my laptop either learning new things, or applying new things learned.<br/><br/>
 
                         My next project will be a Front and Back end ordering system of school supplies. 
