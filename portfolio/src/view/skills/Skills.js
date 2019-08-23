@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className="skills-main">
             <div className="title-wrap">
-                <h1 className="title">Skills</h1>
+                <h1 className="title bounce-top">Skills</h1>
             </div>
             <div>
                 <SkillNav  />
