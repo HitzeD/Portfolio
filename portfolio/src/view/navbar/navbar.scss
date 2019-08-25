@@ -14,39 +14,17 @@
         font-weight: 900;
         margin: .5%;
 
-    }
-
-    .nav {
-        margin: .5%;
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-
-        .list {
-            width: 80%;
-            text-decoration: none;
-            display: flex;
-            
-            justify-content: flex-end;
-
-            .item {
-                font-size: 3rem;
-                font-family: $large-font;
-                font-weight: 900;
-                margin: .5%;
-
-                .link {
-                    color: $nav-font-color;
-                    text-decoration: none;
-
-                    &:hover {
-                        color: $sushi;
-                    }
-                }
-            }
+        @include nav-name {
+          font-size: 2.5rem;
         }
+
+    } // end of name
+
+    @include nav-name {
+      justify-content: center;
     }
-}
+
+} // end of nav-main
 
 // Animations below
 
