@@ -14,7 +14,7 @@
         font-weight: 900;
         margin: .5%;
 
-    }
+    } // end of name
 
     .nav {
         margin: .5%;
@@ -42,11 +42,15 @@
                     &:hover {
                         color: $sushi;
                     }
-                }
-            }
-        }
-    }
-}
+                } // end of link
+
+            } // end of item 
+
+        } // end of list
+
+    } // end of nav
+
+} // end of nav-main
 
 // Animations below
 
