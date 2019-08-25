@@ -14,41 +14,15 @@
         font-weight: 900;
         margin: .5%;
 
+        @include nav-name {
+          font-size: 2.5rem;
+        }
+
     } // end of name
 
-    .nav {
-        margin: .5%;
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-
-        .list {
-            width: 80%;
-            text-decoration: none;
-            display: flex;
-            
-            justify-content: flex-end;
-
-            .item {
-                font-size: 3rem;
-                font-family: $large-font;
-                font-weight: 900;
-                margin: .5%;
-
-                .link {
-                    color: $nav-font-color;
-                    text-decoration: none;
-
-                    &:hover {
-                        color: $sushi;
-                    }
-                } // end of link
-
-            } // end of item 
-
-        } // end of list
-
-    } // end of nav
+    @include nav-name {
+      justify-content: center;
+    }
 
 } // end of nav-main
 
