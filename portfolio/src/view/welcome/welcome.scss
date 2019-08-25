@@ -45,6 +45,10 @@
             padding: 3%;
             @include box-shadow;
 
+            @include twelve-eighty {
+              margin-bottom: 3%;
+          }
+
             @include tablet-landscape {
               margin: 2.3%;
             }

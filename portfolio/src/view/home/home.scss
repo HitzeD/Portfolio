@@ -4,6 +4,10 @@
     .home-wrap {
         display: flex;
 
+        @include main-change {
+            flex-direction: column;
+            align-items: center;
+        }
 
 
         .left {
@@ -12,9 +16,9 @@
             flex-direction: column;
             justify-content: space-evenly;
 
-            @include tablet-landscape {
-                height: inherit;
-            }
+            // @include tablet-landscape {
+            //     height: inherit;
+            // }
 
             @include sideNav-width {
                 width: 30%;
@@ -46,6 +50,11 @@
 
                     @include img-width {
                         width: 75%;
+                    }
+
+                    @include twelve-eighty {
+                        // width: 30%;
+                        height: 60%;
                     }
 
                     @include small-desktop {
@@ -122,6 +131,11 @@
             height: 93vh;
             width: 75%;
 
+            @include twelve-eighty {
+                // width: 30%;
+                height: inherit;
+            }
+
             @include tablet-landscape {
                 height: inherit;
             }
@@ -132,6 +146,11 @@
 
             @include nav-name {
                 width: 50%;
+            }
+
+            @include main-change {
+                margin-top: 3%;
+                width: 90%;
             }
         } // end of right
     }
