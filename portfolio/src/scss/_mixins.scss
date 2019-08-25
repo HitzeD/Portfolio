@@ -30,3 +30,27 @@
 @mixin small-desktop {
     @media (max-width: 1450px) { @content; }
 }
+
+@mixin img-width {
+    @media (max-width: 1600px) { @content; }
+}
+
+@mixin medium-img {
+    @media (max-width: 1380px) { @content; }
+}
+
+@mixin small-img {
+    @media (max-width: 1100px) { @content; }
+}
+
+@mixin nav-name {
+    @media (max-width: 655px)  { @content; }
+}
+
+@mixin welcome-title {
+    @media (max-width: 550px) { @content; }
+}
+
+@mixin sideNav-width {
+    @media (max-width: 820px) { @content; }
+}
