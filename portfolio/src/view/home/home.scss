@@ -7,17 +7,28 @@
 
 
         .left {
-            // background: #FFF8E3;
-            height: 93vh;
             width: 25%;
             display: flex;
             flex-direction: column;
+            justify-content: space-evenly;
+
+            @include tablet-landscape {
+                height: inherit;
+            }
+
+            @include sideNav-width {
+                width: 30%;
+            }
+
+            @include nav-name {
+                width: 50%;
+            }
 
             .img-wrap {
                 height: 45%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-content: center;
                 
                 @include small-desktop {
@@ -33,10 +44,27 @@
                     border-radius: 50%;
                     @include box-shadow;
 
+                    @include img-width {
+                        width: 75%;
+                    }
+
                     @include small-desktop {
                         margin: 1%;
                         height: 70%;
                         width: 60%;
+                    }
+
+                    @include medium-img {
+                        width: 80%;
+                    }
+
+                    @include small-img {
+                        width: 90%;
+                    }
+
+                    @include tablet-landscape {
+                        width: 100%;
+                        margin-left: 5%;
                     }
                 }
 
@@ -52,7 +80,10 @@
                             width: 25px;
                             height: 30px;
     
-                            
+                        }
+
+                        @include tablet-landscape {
+                            margin-top: 5%;
                         }
                     }
 
@@ -67,7 +98,7 @@
             }
 
             .bottom-left {
-                height: 49%;
+                // height: 49%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -90,6 +121,18 @@
             // background: blue;
             height: 93vh;
             width: 75%;
+
+            @include tablet-landscape {
+                height: inherit;
+            }
+
+            @include sideNav-width {
+                width: 70%;
+            }
+
+            @include nav-name {
+                width: 50%;
+            }
         } // end of right
     }
 }
