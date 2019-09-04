@@ -14,11 +14,8 @@ const Welcome = () => {
                         I have an amazing family of 4 that I am taking care of when I am not nose-deep in 
                         my laptop either learning new things, or applying new things learned.<br/><br/>
 
-                        My next project will be a Front and Back end ordering system of school supplies. 
-                        A school can participate, and add teachers to their list. Parents can sign a student 
-                        up in the system to participate. Teachers can then add all supplies needed for their 
-                        class. Once the school assigns a student to a teacher, school supplies will automatically 
-                        be ordered and sent to the school for the first day.<br/><br/>
+                        Currently, I am digging into C# and ASP.NET API configuration. I am going to learn
+                        how to build a Back-End RESTful API to attach to my Portfolio as a contact form.
 
                         You can also check out some of my other projects in the <Link to="/projects">Projects</Link> tab!<br/><br/>
 
