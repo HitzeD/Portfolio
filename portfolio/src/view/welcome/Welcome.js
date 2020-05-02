@@ -17,7 +17,7 @@ const Welcome = () => {
                        I'm currently digging deep into C# code. I have been building tinker apps with either WPF, Console Apps, or Web Application.
                        Within Console Apps, I was teaching myself how to reach inside of another windows application (Excel) and call a Procedure that I had created
                        to take in data that was/had been updated in the workbook, and send an email out all without a user opening the file. It never made it into production,
-                       but I had a great amount of enjopyment to see it finally work.<br/> 
+                       but I had a great amount of enjopyment to see it finally work.<br/><br/>
                        
                        At work, as an Operation Analyst, I have been writing code in Visual Basic for Application. It is code that is written directly inside of a Microsoft
                        Office document. I have been turning boring Excel Workbooks into exciting pieces of work that help excel (pun intended) the business. I find it completely satisfying
