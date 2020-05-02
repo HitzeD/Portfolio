@@ -14,11 +14,15 @@ const Welcome = () => {
                         I have an amazing family of 4 that I am taking care of when I am not nose-deep in 
                         my laptop either learning new things, or applying new things learned.<br/><br/>
 
-                        My next project will be a Front and Back end ordering system of school supplies. 
-                        A school can participate, and add teachers to their list. Parents can sign a student 
-                        up in the system to participate. Teachers can then add all supplies needed for their 
-                        class. Once the school assigns a student to a teacher, school supplies will automatically 
-                        be ordered and sent to the school for the first day.<br/><br/>
+                       I'm currently digging deep into C# code. I have been building tinker apps with either WPF, Console Apps, or Web Application.
+                       Within Console Apps, I was teaching myself how to reach inside of another windows application (Excel) and call a Procedure that I had created
+                       to take in data that was/had been updated in the workbook, and send an email out all without a user opening the file. It never made it into production,
+                       but I had a great amount of enjopyment to see it finally work. 
+                       
+                       At work, as an Operation Analyst, I have been writing code in Visual Basic for Application. It is code that is written directly inside of a Microsoft
+                       Office document. I have been turning boring Excel Workbooks into exciting pieces of work that help excel (pun intended) the business. I find it completely satisfying
+                       to help out other folks in the job that they do. Within my job, I have also learned deeply about Cryogenics and the tanks that hold them. The science behind making them work
+                       and not implode/explode is beyond an amazing!<br/><br/>
 
                         You can also check out some of my other projects in the <Link to="/projects">Projects</Link> tab!<br/><br/>
 
