@@ -52,6 +52,7 @@
 
                 .school-body {
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
                     align-content: center;
                     margin-top: 2%;
@@ -62,6 +63,18 @@
                         line-height: 1.5rem;
                         font-family: $body-font;
                     }
+
+                    .pList {
+                        align-self: center;
+                        font-size: 1.2rem;
+                        margin-left: 9rem;
+
+                        .item {
+                            margin: .5rem;
+                            font-weight: bold;
+                        }
+                    }
+
 
                 } // end of school-body
 
