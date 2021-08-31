@@ -5,6 +5,7 @@ import SkillNav from '../navbar/SkillNav';
 import SkillIntro from '../skillRoutes/intro/SkillIntro';
 import FrontEnd from '../skillRoutes/fe/Fe';
 import BackEnd from '../skillRoutes/backend/BackEnd';
+import Safety from '../skillRoutes/safety/Safety';
 
 const Skills = () => {
     return (
@@ -19,6 +20,7 @@ const Skills = () => {
                 <Route exact path='/skills' component={SkillIntro} />
                 <Route path='/skills/fe' component={FrontEnd} />
                 <Route path='/skills/be' component={BackEnd} />
+                <Route path='/skills/safety' component={Safety} />
             </div>
         </div>
     )
